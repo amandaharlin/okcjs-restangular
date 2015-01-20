@@ -1,0 +1,15 @@
+<div>
+  <h2>{{contact.gemTitle}}</h2>
+    "id" : {{contact.id}}<br />
+    "gemTitle": {{contact.gemTitle}} <br />
+    "company" : {{contact.company}} <br />
+    "gemDescription": {{contact.gemDescription}} <br />
+    "gemScore": {{contact.gemScore}} <br />
+    "gemPrice": {{contact.gemPrice}} <br />
+    "contactName" : {{contact.contactName}} <br />
+    "contactInfo" : {{contact.contactInfo}} <br />
+    "reviews": <ul>
+      <li ng-repeat="review in contact.reviews">{{review}}</li>
+  </ul>
+  <a ui-sref="{{resttype}}.rolodex">Go back to the list </a>
+</div>

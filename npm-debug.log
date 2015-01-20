@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'uirouter' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json job@0.0.0 No description
+5 warn package.json job@0.0.0 No repository field.
+6 warn package.json job@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'uirouter', null ]
+9 verbose cache add name=undefined spec="uirouter" args=["uirouter",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'uirouter',
+10 verbose parsed url   path: 'uirouter',
+10 verbose parsed url   href: 'uirouter' }
+11 silly lockFile c106b7bf-uirouter uirouter
+12 verbose lock uirouter C:\Users\Amanda Harlin\AppData\Roaming\npm-cache\c106b7bf-uirouter.lock
+13 silly lockFile c106b7bf-uirouter uirouter
+14 silly lockFile c106b7bf-uirouter uirouter
+15 verbose addNamed [ 'uirouter', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 91d6499e-uirouter uirouter@
+18 verbose lock uirouter@ C:\Users\Amanda Harlin\AppData\Roaming\npm-cache\91d6499e-uirouter.lock
+19 silly addNameRange { name: 'uirouter', range: '*', hasData: false }
+20 verbose request where is /uirouter
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 5007960b9e32e417
+23 verbose url raw /uirouter
+24 verbose url resolving [ 'https://registry.npmjs.org/', './uirouter' ]
+25 verbose url resolved https://registry.npmjs.org/uirouter
+26 verbose request where is https://registry.npmjs.org/uirouter
+27 info trying registry request attempt 1 at 18:06:45
+28 http GET https://registry.npmjs.org/uirouter
+29 http 404 https://registry.npmjs.org/uirouter
+30 silly registry.get cb [ 404,
+30 silly registry.get   { date: 'Sat, 17 Jan 2015 00:06:47 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"CEVLHPES12USEBDOW253QZW9L"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '393',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1421453207.230656,VS0,VE63',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile 91d6499e-uirouter uirouter@
+32 silly lockFile 91d6499e-uirouter uirouter@
+33 error 404 Not Found
+33 error 404
+33 error 404 'uirouter' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'job'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Windows_NT 6.1.7601
+35 error command "d:\\Program Files\\nodejs\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "uirouter"
+36 error cwd D:\Users\Amanda Harlin\Desktop\jobs-withjess
+37 error node -v v0.10.35
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
